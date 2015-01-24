@@ -19,12 +19,14 @@ Users Access Key Id and Secret Access Key Id are required for authentication. Th
 1. By creating credentials object
 ```sh
 var creds = new AWS.Credentials({'your_access_key',  'your_secret_key_id', null});
-var s3 = new AWS.S3(creds);```
+var s3 = new AWS.S3(creds); 
+```
 2. Exporting Credentials through command prompt - 
 Using git bash command prompt, the following commands can be used to authenticate.
 ```sh
 export AWS_SECRET_ACCESS_KEY="your_access_key_id" 
-export AWS_SECRET_ACCESS_KEY="your_secret_access_key" ```
+export AWS_SECRET_ACCESS_KEY="your_secret_access_key" 
+```
 I have used the 2nd option for this demonstration.
 
 #####Execute
